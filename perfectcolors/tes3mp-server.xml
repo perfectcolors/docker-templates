@@ -8,6 +8,7 @@
   <Repository>tes3mp/server</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
+  <ExtraParams>--restart on-failure</ExtraParams>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>

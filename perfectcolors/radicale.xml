@@ -6,6 +6,7 @@
   <Repository>tomsquest/docker-radicale</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
+  <ExtraParams>--no-healthcheck</ExtraParams>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
